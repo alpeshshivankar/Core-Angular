@@ -9,7 +9,7 @@ namespace LearnTech.EF.Models
     {
         public LearnTechDBContext(): base("name = LearnTechConnectionstring")
         {
-            Database.SetInitializer<LearnTechDBContext>(new CreateDatabaseIfNotExists<LearnTechDBContext>());
+            Database.SetInitializer(new CreateDatabaseIfNotExists<LearnTechDBContext>());
         }
 
         public DbSet<Student> Students { get; set; }

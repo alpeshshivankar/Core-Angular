@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.29519.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreApiTutorial", "CoreApiTutorial\CoreApiTutorial.csproj", "{1E1391CB-4AD3-4EF1-B266-E4C4CCC4DA2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnTech.EF", "LearnTech.EF\LearnTech.EF.csproj", "{32FCBD58-5543-44C5-A58A-CF0DE6B0E60B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnTech.EF", "LearnTech.EF\LearnTech.EF.csproj", "{32FCBD58-5543-44C5-A58A-CF0DE6B0E60B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArchitectureCore", "ArchitectureCore\ArchitectureCore.csproj", "{6B909CEE-AD92-4E06-BEDE-B4E41F043D97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearnTech.Common", "LearnTech.Common\LearnTech.Common.csproj", "{353A9EB0-036F-43D2-96A8-24D62C315D95}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{32FCBD58-5543-44C5-A58A-CF0DE6B0E60B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32FCBD58-5543-44C5-A58A-CF0DE6B0E60B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32FCBD58-5543-44C5-A58A-CF0DE6B0E60B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B909CEE-AD92-4E06-BEDE-B4E41F043D97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B909CEE-AD92-4E06-BEDE-B4E41F043D97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B909CEE-AD92-4E06-BEDE-B4E41F043D97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B909CEE-AD92-4E06-BEDE-B4E41F043D97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{353A9EB0-036F-43D2-96A8-24D62C315D95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{353A9EB0-036F-43D2-96A8-24D62C315D95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{353A9EB0-036F-43D2-96A8-24D62C315D95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{353A9EB0-036F-43D2-96A8-24D62C315D95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
